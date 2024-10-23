@@ -1,3 +1,4 @@
+#file bearbeiten, text datei in Array aus integer arrays machen die jede Zeile repräsentieren
 file = input("Enter filepath:")
 with open(file) as f:
     contents = f.readlines()
